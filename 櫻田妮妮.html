@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>櫻田妮妮</title>
+    </head>    
+    <body>
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>練習NavBar 導覽列</title>
+                <meta charset="UTF-8">
+                <!-- 響應式網站 -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+                <!-- Boostrap5.0 導入程式 -->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        
+                <!-- 連結CSS -->
+                <link rel="stylesheet" href="navbar.css">
+            </head>
+        
+            <body>
+        
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  
+                    <div class="container-fluid">
+                        <!-- 品牌logo -->
+                        
+        
+                        <!-- 第一部份：手機版 -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <!-- 第二部份：桌上型電腦版 -->
+                            
+                        <div class="collapse navbar-collapse" id="linkbar">
+                            <!-- 列出內容 -->
+                            <div class="collapse navbar-collapse" id="linkbar">
+                                <!-- 列出內容 -->
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="蠟筆小新.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="劇情介紹.html">劇情介紹</a>
+                                    </li>
+                                    
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      角色介紹
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="野原一家.html">野原一家</a></li>
+                                      <li><a class="dropdown-item" href="雙葉幼稚園.html">雙葉幼稚園</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link disabled">Disabled</a>
+                                  </li>
+                                    
+                                
+                            </ul>
+                            <!-- 列出到右邊 -->
+                            <form style="width:300px;" class="input-group">
+                                <input  class="form-control me-3" type="search" placeholder="搜尋">
+                                <button  class="btn btn-success" type="submit">搜尋</button>
+        
+                            </form>
+                         
+        
+                        </div>
+                     
+                    
+        
+                    </div>
+                </nav>  
+               
+        <h1 style="color: rgb(2, 124, 238);"><b>櫻田妮妮</b></h1> 
+        <hr>
+        <div style="background-color: azure;">  
+        <h3>5歲，6月5日生，血型A型。個性強勢，常要求春日部防衛隊隊員一起玩「超真實扮家家酒」，小愛的天敵。生氣時經常拿幸福兔來出氣。
+            在其超真實扮家家酒中，通常飾演「美麗的」妻子，也常被防衛隊其他成員暗中吐嘈。</h3>
+        <img src="https://static.wikia.nocookie.net/bishojodate/images/4/4e/15906.jpg/revision/latest?cb=20141215141839&path-prefix=zh"/>
+        <img src="https://pic1.zhimg.com/50/v2-3f7e8fb13dc7be025082bcc9a9b6e3e8_720w.jpg?source=1940ef5c"/>
+        <img width=400px; height:200px src="data:image/jpeg;base64,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"/> 
+        
+    </body>
+</html>        

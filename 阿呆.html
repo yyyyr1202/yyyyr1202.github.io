@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>阿呆</title>
+    </head>    
+    <body>
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>練習NavBar 導覽列</title>
+                <meta charset="UTF-8">
+                <!-- 響應式網站 -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+                <!-- Boostrap5.0 導入程式 -->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        
+                <!-- 連結CSS -->
+                <link rel="stylesheet" href="navbar.css">
+            </head>
+        
+            <body>
+        
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  
+                    <div class="container-fluid">
+                        <!-- 品牌logo -->
+                        
+        
+                        <!-- 第一部份：手機版 -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <!-- 第二部份：桌上型電腦版 -->
+                            
+                        <div class="collapse navbar-collapse" id="linkbar">
+                            <!-- 列出內容 -->
+                            <div class="collapse navbar-collapse" id="linkbar">
+                                <!-- 列出內容 -->
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="蠟筆小新.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="劇情介紹.html">劇情介紹</a>
+                                    </li>
+                                    
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      角色介紹
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="野原一家.html">野原一家</a></li>
+                                      <li><a class="dropdown-item" href="雙葉幼稚園.html">雙葉幼稚園</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link disabled">Disabled</a>
+                                  </li>
+                                    
+                                
+                            </ul>
+                            <!-- 列出到右邊 -->
+                            <form style="width:300px;" class="input-group">
+                                <input  class="form-control me-3" type="search" placeholder="搜尋">
+                                <button  class="btn btn-success" type="submit">搜尋</button>
+        
+                            </form>
+                         
+        
+                        </div>
+                     
+                    
+        
+                    </div>
+                </nav>  
+               
+        <h1 style="color: rgb(2, 124, 238);"><b>阿呆</b></h1>            
+        <hr/>
+        <div style="background-color: azure;">
+        <h3>5歲，9月10日生，血型AB型。總是流鼻涕，但是他的鼻涕非常特別，可以伸縮自如。嗜好是觀賞及照顧金魚、收集各種石頭和觀察身邊周圍的東西，深藏不露，有豐富的知識。
+            個性隨和，除非遇到真的不喜歡的事物或遊戲（如妮妮的扮家家酒），通常不會拒絕參加。也因此常常和小新玩一些旁人看不懂的遊戲（如沒有鬼的躲貓貓、想像躲避球等）。在妮妮的扮家家酒中，通常飾演一些無關緊要的角色（如嬰兒、寵物等，甚至植物）。
+            對石頭異常執著，甚至會為此與朋友吵架，也會藉石頭表達心意。</h3>
+        <img src="data:image/png;base64,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"/>
+        <img src="https://inmywordz.com/wp-content/uploads/20200123143622_85.jpg"/>
+        <img src="https://pic.happytify.cc/uploads/20210809/DF/1DF996E7D69Aw640h360.jpeg"/>
+        <img src="https://p9-bk.byteimg.com/tos-cn-i-mlhdmxsy5m/714cd2e22fee46d0b0df466f7a4c8d32~tplv-mlhdmxsy5m-q75:0:0.image"/>    
+    </body>
+</html>        
